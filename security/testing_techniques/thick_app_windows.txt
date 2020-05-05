@@ -1,0 +1,46 @@
+To check changes made to OS during installation:
+  I tried:
+  - InstallSpy --> not working
+  - InstallWatchPro --> best results but has problem with Program Files folder name
+  - SysTrace --> Got loads of results but could not give paths
+
+USE: InstallWatchPro
+
+*******************************************************
+To Check the comms application makes:
+
+  * Wireshark
+  * EchoMirage
+
+*******************************************************
+
+***** Memory Analysis
+Volatility: https://github.com/volatilityfoundation/volatility
+
+*******************************************************
+
+To detect and identify exe/dll compiler or packer:
+  http://sumtips.com/2012/05/detect-identify-exe-compiler-packer.html
+
+  * PEiD - http://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/PEiD-updated.shtml
+    Learnt nothing from this
+
+  * Exeinfo PE - http://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/ExEinfo-PE.shtml
+    ** Found: Themida & WinLicense 2.0 - 2.1 - struct (Hide from PE scanners II-V)
+    try Olly Debugger v2 and script - www.ollydbg.de-  Tutorial find via google.com
+
+  * Language 2000 - https://farrokhi.net/language/
+
+
+*******************************************************
+
+To get around packer / compiler:
+
+  Themida & WinLicense 2.0 - 2.1 - struct (Hide from PE scanners II-V)
+
+  Software:
+  What do you really need?
+  1.) OllyDBG 1.10 - Original
+  2.) ODBGScript Plugin 1.82.6 or higher
+  3.) PhantOm    Plugin 1.79
+  4.) StrongOD   Plugin 0.4.8.892

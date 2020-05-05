@@ -1,0 +1,30 @@
+Windows Native Application testing:
+-----------------------------------
+
+Tools needed:
+------------
+echomirage,
+-burp, wireshark,
+ITR (interactive TCP relay)
+-process explorer
+-all the windows sys internals tools
+  https://technet.microsoft.com/en-gb/sysinternals/bb795533.aspx
+-java - for burp
+https://github.com/nccgroup/BinProxy
+
+
+Testing tips:
+-------------
+http://niiconsulting.com/checkmate/2015/12/thick-client-application-security-testing/
+
+Check for the clear-text credentials in process memory. Winhex could be used to check for this.
+
+Source code decompilation: To do this JDGUI is the tool used for Java application and Dotnet reflector for .Net applications.
+
+http://www.slideshare.net/nullbind/thick-application-penetration-testing-crash-course
+http://resources.infosecinstitute.com/application-security-testing-of-thick-client-applications/
+
+
+vehicle.licence
+Email - ask for reprint
+provide POP
